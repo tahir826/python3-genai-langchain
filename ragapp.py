@@ -1,9 +1,9 @@
 from langchain_community.document_loaders import TextLoader                                                    # type: ignore
 from langchain.indexes import VectorstoreIndexCreator                                                          # type: ignore
 from langchain.text_splitter import CharacterTextSplitter                                                      # type: ignore
-from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings                               # type: ignore
+from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings                            # type: ignore
 import os
-from dotenv import load_dotenv                                                                                  # type: ignore
+from dotenv import load_dotenv                                                                                 # type: ignore
 load_dotenv()
 
 llm = GoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.getenv("GOOGLE_API_KEY"))
