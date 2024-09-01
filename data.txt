@@ -1,4 +1,4 @@
-University Name: Tahir University
+University Name: "Tahir University"
 
 Address: 456 Academic Lane, Knowledge City, TX 78901
 
